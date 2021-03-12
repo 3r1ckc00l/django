@@ -1,0 +1,6 @@
+# Build and Release Folders
+.idea/
+db.sqlite3
+
+# cache ignored
+__pycache__
