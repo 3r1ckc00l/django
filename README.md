@@ -1,0 +1,2 @@
+# django
+default django installation
