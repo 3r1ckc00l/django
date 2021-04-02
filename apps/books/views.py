@@ -4,7 +4,8 @@ from .models import Books
 from .form import BooksForm
 
 def home_view(request, *args, **kwargs):
-    return HttpResponse("<h1>Hello World!</h1>")
+    #return HttpResponse("<h1>Hello World!</h1>")
+    return render(request, 'pages/home.html', context={}, status=200)
 
 def book_detail_view(request, book_id, *args, **kwargs):
     try:
